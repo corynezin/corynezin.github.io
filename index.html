@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Cory Nezin</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="image/png" href="cn.png">
-    </head>
-    <body>
-    <div class="text">
-    <h1><div class="text title outline">Cory</div><div class='text title inverted'>Nezin</div></h1>
-    <h3>I graduated with a master's in Electrical Engineering from The Cooper Union in 2018.</h3>
-    <h3>I am a software engineer at Bloomberg L.P.</h3>
-    <h3>I productionize machine learning systems and make them accessible to non-technical users. 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Upload Files</title>
+  </head>
+
+  <body>
+		<form method="post" enctype="multipart/form-data">
+			<input type="file" name="img_file"/ id="img_file">
+			<input type="file" name="txt_file"/ id='txt_file'>
+			<input type="number" name="threshold"/ id='threshold'>
+			<input type="number" name="height"/ id='height'>
+			<input type="number" name="width"/ id='width'>
+			<input type="checkbox" name="negate"/ id='negate'>
+			<input type="submit" value="Upload Files" name="submit" />
+		</form>
+
+    <div id=main style="font-size:10px">
     </div>
-    </body>
+
+		<script src="upload.js"></script>
+  </body>
 </html>
