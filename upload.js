@@ -1,4 +1,4 @@
-const url = 'http://flask-env.3tpktm3p5c.us-east-2.elasticbeanstalk.com/transform'
+const url = 'https://www.corynezin.com/transform'
 //const url = 'http://127.0.0.1:5000/transform'
 const form = document.querySelector('form')
 
